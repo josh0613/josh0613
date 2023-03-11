@@ -1,0 +1,53 @@
+/* primer parrafo con color  */
+
+#sl p:first-child {
+    background-color: aqua;
+}
+
+
+/* segundo parrafo con color  RGB*/
+
+#sl p:nth-child(2) {
+    background-color: #1481BA;
+}
+
+
+/* segundo parrafo con color HS1 */
+
+#sl p:last-child {
+    background-color: hsl(345,90%,50%) ;
+}
+
+
+#s2 p {
+    color: black;
+    width: 10rem;
+    height: 10rem;
+    background-color: beige;
+    overflow: auto;
+}
+
+#id3 img {
+    width: 10px;
+    
+}
+
+
+#id4 ul {
+    background-color: yellow;
+
+}
+
+#id4 li {
+    float: right;
+    width: 25%;
+
+}
+
+#clearfix {
+    clear: both;
+    content: "";
+    display: table;
+
+}
+

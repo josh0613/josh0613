@@ -1,0 +1,73 @@
+
+/* cambiar color a las secciones cuando el puntero del mouse pase sobre el elemento */
+
+
+section:hover {
+    background-color: yellowgreen;
+}
+
+p:hover{
+    font-size: 18 px;
+    font-variant: small-caps;
+}
+
+a {
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+a:hover {
+    background-color: salmon;
+    color: white;
+}
+
+/* Aplicar un estelo al primer elemento de la lista 1 */
+
+#lista-1 li:first-child{
+    border-top: 3px dotted black;
+    color: darkorchid;
+}
+
+/* Aplicar un estelo al ultimo elemento de la lista 1 */
+
+#lista-1 li:last-child{
+    background-color: rgb(25, 120, 204);
+    border-bottom: 3px dotted black;
+}
+
+/* Aplicar un estelo al noveno elemento elemento de la lista 1 */
+
+#lista-1 li:nth-child(9) {
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+/* Aplicar estilo cada 5 items */
+#lista-1 li:nth-child(5n) {
+    border-bottom: 4px dotted gray;
+}
+
+
+/* Poner estilo a los elemtos impares */
+#lista-2 li:nth-child(odd){
+    background-color: gainsboro;
+
+}
+
+/* Poner estilo a los elemtos pares */
+#lista-2 li:nth-child(even){
+    background-color: blanchedalmond;
+}
+
+/* cambiar el tamaño de la primera letra de todos los parrafos de la pagina */
+
+p::first-letter {
+    font-size: 100px;
+    font-weight: bold;
+}
+
+p::first-line {
+    background-color: darkorchid;
+}

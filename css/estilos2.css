@@ -1,0 +1,102 @@
+
+div.producto {
+    background-color: aqua;
+}
+
+div {
+    background-color: blue;
+}
+
+/* Modelo de caja */
+
+#a1 {
+    background-color: antiquewhite;
+    padding: 5px;
+    margin: 10px;
+    border: 5px solid black;
+}
+#a1 p {
+    background-color: aquamarine;
+    margin: 0;
+}
+
+#a2 {
+    background-color: rosybrown;
+    padding: 5px;
+}
+#a2 p {
+    background-color: lightslategray;
+    border: 3px solid white;
+
+    /* relleno iguales 4 lados */
+    padding: 10px;
+
+    /* 10px sup-inf       20px izq-der */
+    padding: 10px 20px;
+
+    /* 10px sup
+    50px izq-der
+    30px inf */
+    padding: 10px 50px 30px;
+
+    /*10px sup
+    20px der
+    30px inf
+    40px izq  */
+    padding: 10px 20px 30px 40px;
+}
+
+#a3 {
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 5px solid black;
+}
+#a4 {
+    background-color: rebeccapurple;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 5px solid black;
+    box-sizing: border-box;
+}
+
+#a5 {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    display: inline;
+}
+#a5 span{
+    background-color: blueviolet;
+}
+#a6 {
+    display: inline;
+    background-color: brown;
+    width: 150px;
+    height: 150px;
+}
+
+#a7 p{
+    font-size: 16px;
+    background-color: royalblue;
+    border: 0.5em solid blue;
+    padding: 2em;
+    margin: 3em;
+}
+
+#a8 {
+    background-color: aqua;
+    margin: auto;
+    width: 70vw;
+    height: 100vh;
+}
+
+#a9 {
+    background-color: goldenrod;
+    margin: auto;
+    width: 70%;
+    height: 100%;
+}
+
